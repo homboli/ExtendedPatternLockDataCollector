@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ExtendedPatternLockDataCollector</string>
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a dot to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user adds a dot to the pattern. Announces the
+    actual cell when headphones are connected [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added_verbose">
+            Cell <xliff:g example="3" id="cell_index">%1$s</xliff:g> added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <!-- Accessibility description of the unlock pattern area. [CHAR_LIMIT=none] -->
+    <string name="lockscreen_access_pattern_area" msgid="">Pattern area.</string>
+
+    <string name="thumb">Right thumb. Phone is in right hand.</string>
+    <string name="indexFinger">Right index finger. Phone is in left hand.</string>
+    <string name="standing">Standing.</string>
+    <string name="sitting">Sitting.</string>
+    <string name="NoUserIdErrorMessage">Empty user ID!</string>
+
+
+</resources>
